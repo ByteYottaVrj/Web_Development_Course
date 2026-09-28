@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets learn it</title>
+</head>
+<body>
+    <h>Form to apply for sigma web development course - TA</h>
+    <form action="post">
+        <div>
+        <p><label for="username"> Enter Username:</label></p>
+        <p><input type="text" id="username" name="username" placeholder="Enter your username" autofocus></p>
+        <p><label for="password"> Enter Password:</label></p>
+        <p><input type="password" id="password" name="password" placeholder="Enter your password"></p>
+         <label>Gender:</label>
+         </div>
+         <div>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+         </div>
+         <div>
+            <input type="checkbox" id="approval" name="approval" value="approval">
+            <label for="approval">I approve the terms and conditions</label>
+         </div>
+         <div>
+            <input type="radio" id="hero" name="hero" value="hero">
+            <label for="hero">Hero</label>
+            <input type="radio" id="zero" name="hero" value="zero">
+            <label for="zero">Zero</label>
+         </div>
+     <p><button type="submit">Submit</button></p>
+     <div><label for="comment">Your Comment:</label>
+        <br><textarea name="comment" rows="4" col="50" >Enter your comment...</textarea></br>
+     </div>
+     <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+        </select>
+     </div>
+    </form>
+</body>
+</html>

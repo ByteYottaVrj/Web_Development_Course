@@ -1,0 +1,1 @@
+alert("Welcome to inline and block elements");
