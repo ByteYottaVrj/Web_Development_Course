@@ -5,32 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
     <style>
+        /* Element Selector */
         div{
              /* background-color: red; */
         }
             .red{
                 background-color: red;
+                color: black;
             }
             /* Id selector */
             #green{
                 background-color: green;
         }
+            #aqua{
+                   background-color: aqua;
+           }
+           #yellow{
+                background-color: yellow;
+           }
 
         /* child selectors */
-        div > p{
+         div > p{
             color: blue;
             background-color: brown;
-        }
-    
-    </style>
+         }
+         /* Decendent sellector */
+         div p{
+            color: blue;
+            background-color: brown;
+         }
+         /* Universal Selector */
+         *{
+            margin: 0;
+            padding: 0;
+         }
+        
+         /* Pseudo-classes */
+         a:visited{
+            color: yellow;
+         }
+         a:link {
+               color: red
+         }
+         a:active{
+            color: green;
+         }
+         a:hover{
+            background-color:aqua;
+         }
+         p:hover{
+            color: red;
+         }
+         div:hover{
+            background-color: rgb(10, 119, 207);
+         }
+         p:first-child{
+            color: red;
+         }
+         
+</style>
 </head>
 <body>
+    <main >
+        <p>hello bhai</p>
+        <p> kya haal chaal?</p>
+    </main>
     <div id="green">
         I am a div
-        <P>kya  haal hai</P>
+        <article><P>kya  haal hai</P></article>
+        
     </div>
     <div class="red">
         I am another div
     </div>
+    <div id="aqua">
+        hello who are you and how are you?
+    </div>
+    <div id="yellow">
+        sunder din hai aaj ka.
+    </div>
+    <a href="https://www.google.com" target="_blank"> Go to Google</a>
+    <a href="https://www.facebook.com" target="_blank"> Go to Facebook</a>
 </body>
 </html>
