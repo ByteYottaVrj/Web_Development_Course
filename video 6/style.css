@@ -4,3 +4,12 @@ td{
 body{
     background-color:rgb(219, 238, 182)
 }
+a:visited{
+    color:aqua;
+}
+a:active{
+    color:brown;
+}
+a:hover{
+    background-color:blue;
+}
